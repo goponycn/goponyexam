@@ -6,7 +6,7 @@
 #### 系统截图
 <table>
     <tr>
-        <td><img src="https://gitee.com/ponyedu/goponyexam/raw/master/files/feature-1.png"/></td>
+        <td width="50%" height="100"><img src="https://gitee.com/ponyedu/goponyexam/raw/master/files/feature-1.png"/></td>
         <td><img src="https://gitee.com/ponyedu/goponyexam/raw/master/files/feature-2.png"/></td>
     </tr>
 </table>
