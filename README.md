@@ -6,12 +6,12 @@
 #### 系统截图
 <table>
     <tr>
-        <td><img src="https://www.mindskip.net/style/git/images/student/1.png"/></td>
-        <td><img src="https://www.mindskip.net/style/git/images/student/2.png"/></td>
+        <td><img src="https://gitee.com/ponyedu/goponyexam/raw/master/files/feature-1.png"/></td>
+        <td><img src="https://gitee.com/ponyedu/goponyexam/raw/master/files/feature-2.png"/></td>
     </tr>
 </table>
 
-![输入图片说明](files/feature-1.png)
+
 
 
 #### 联系方式
