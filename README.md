@@ -6,19 +6,19 @@
 #### 系统截图
 <table>
     <tr>
-        <td width="50%" height="100"><img src="https://gitee.com/ponyedu/goponyexam/raw/master/files/feature-1.png"/></td>
+        <td width="50%" height="80"><img src="https://gitee.com/ponyedu/goponyexam/raw/master/files/feature-1.png"/></td>
         <td><img src="https://gitee.com/ponyedu/goponyexam/raw/master/files/feature-2.png"/></td>
     </tr>
     <tr>
-        <td width="50%" height="100"><img src="https://gitee.com/ponyedu/goponyexam/raw/master/files/feature-3.png"/></td>
+        <td width="50%" height="80"><img src="https://gitee.com/ponyedu/goponyexam/raw/master/files/feature-3.png"/></td>
         <td><img src="https://gitee.com/ponyedu/goponyexam/raw/master/files/feature-4.png"/></td>
     </tr>
     <tr>
-        <td width="50%" height="100"><img src="https://gitee.com/ponyedu/goponyexam/raw/master/files/feature-5.png"/></td>
+        <td width="50%" height="80"><img src="https://gitee.com/ponyedu/goponyexam/raw/master/files/feature-5.png"/></td>
         <td><img src="https://gitee.com/ponyedu/goponyexam/raw/master/files/feature-6.png"/></td>
     </tr>
     <tr>
-        <td width="50%" height="100"><img src="https://gitee.com/ponyedu/goponyexam/raw/master/files/feature-7.png"/></td>
+        <td width="50%" height="80"><img src="https://gitee.com/ponyedu/goponyexam/raw/master/files/feature-7.png"/></td>
         <td><img src="https://gitee.com/ponyedu/goponyexam/raw/master/files/feature-8.png"/></td>
     </tr>
 </table>
@@ -28,9 +28,13 @@
 
 #### 联系方式
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+<table>
+    <tr>
+        <td width="30" height="30"><img src="https://gitee.com/ponyedu/goponyexam/raw/master/files/wechat.png"/></td>
+        <td width="30" height="30"><img src="https://gitee.com/ponyedu/goponyexam/raw/master/files/qq.png"/></td>
+    </tr>
+   
+</table>
 
 #### 技术栈
 
