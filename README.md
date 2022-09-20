@@ -30,8 +30,8 @@
 
 <table>
     <tr>
-        <td width="30" height="30"><img src="https://gitee.com/ponyedu/goponyexam/raw/master/files/wechat.png"/></td>
-        <td width="30" height="30"><img src="https://gitee.com/ponyedu/goponyexam/raw/master/files/qq.png"/></td>
+        <td width="50%" height="30"><img src="https://gitee.com/ponyedu/goponyexam/raw/master/files/wechat.png"/></td>
+        <td width="50%" height="30"><img src="https://gitee.com/ponyedu/goponyexam/raw/master/files/qq.png"/></td>
     </tr>
    
 </table>
