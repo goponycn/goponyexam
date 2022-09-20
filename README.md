@@ -30,16 +30,53 @@
 
 <table>
     <tr>
-        <td width="50%" height="30"><img src="https://gitee.com/ponyedu/goponyexam/raw/master/files/wechat.png"/></td>
         <td width="50%" height="30"><img src="https://gitee.com/ponyedu/goponyexam/raw/master/files/qq.png"/></td>
+        <td width="50%" height="30"><img src="https://gitee.com/ponyedu/goponyexam/raw/master/files/wechat.png"/></td>
     </tr>
    
 </table>
 
-#### 技术栈
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
 
 
+#### 主要技术栈
+
+（1）、主环境
+   Java EE 15
+   Servlet 3.0
+   Apache Maven 3
+（2）、主框架
+   Spring Boot 2.2.x
+   Spring Framework 5.2.x
+   Spring Security 5.2.x
+（3）、持久层
+   Apache MyBatis 3.5.x
+   Hibernate Validation 6.0.x
+   Alibaba Druid 1.2.x
+（4）、视图层
+   Vue 2.6.x
+   Axios 0.21.x
+   Element 2.15.x
+
+
+
+#### 特别鸣谢
+  
+  感谢以下的项目,排名不分先后
+  
+  element： https://github.com/ElemeFE/element
+  
+  vue-element-admin： https://github.com/PanJiaChen/vue-element-admin，
+  
+  eladmin-web：https://github.com/elunez/eladmin-web，
+  
+  spring-boot：https://github.com/spring-projects/spring-boot
+
+
+    
+#### 版权信息
+  
+  小马教学软件gopony开源版本遵循MIT开源协议发布，本项目包含的第三方源码和二进制文件之版权信息另行标注。
+  
+  版权所有Copyright © 2020-2022 by gopony (https://www.gopony.cn)
+  
+  All rights reserved。
