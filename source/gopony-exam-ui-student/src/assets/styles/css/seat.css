@@ -1,0 +1,222 @@
+.container {
+  display: block;
+}
+.container .nav-img {
+  width: 1200px;
+  margin: 0 auto;
+  height: 200px;
+  background: url(../images/seatings-img.png);
+}
+.container .main {
+  width: 1200px;
+  margin-top: 20px;
+  border: 1px solid #efefef;
+  display: flex;
+  justify-content: space-between;
+}
+.container .main .seats-container {
+  width: 740px;
+  height: 100%;
+  padding: 30px;
+}
+.container .main .seats-container .seatkinds {
+  width: 400px;
+  margin: 0 auto;
+}
+.container .main .seats-container .seatkinds ul {
+  display: flex;
+  justify-content: space-between;
+}
+.container .main .seats-container .seatkinds ul .seatskind-model {
+  width: 90px;
+  display: inline-block;
+}
+.container .main .seats-container .seatkinds ul .seatskind-model img {
+  margin-right: 8px;
+}
+.container .main .seats-container .screen {
+  width: 550px;
+  height: 80px;
+  margin: 0 auto;
+  margin-left: 100px;
+  margin-top: 40px;
+  background: url(../images/seatscreen.png);
+}
+.container .main .seats-container .seats-body {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: space-between;
+}
+.container .main .seats-container .seats-body .seatnum {
+  width: 10%;
+  height: 100%;
+}
+.container .main .seats-container .seats-body .seatnum ul li {
+  width: 100%;
+  height: 55px;
+  line-height: 55px;
+  text-align: center;
+}
+.container .main .seats-container .seats-body .seats {
+  width: 85%;
+  height: 100%;
+  font-size: 0;
+}
+.container .main .seats-container .seats-body .seats .seat {
+  display: inline-block;
+  width: 68px;
+  height: 55px;
+  background: url(../images/seat.png) no-repeat center center;
+  cursor: pointer;
+}
+.container .main .seats-container .seats-body .seats .disableseat {
+  cursor: url(../images/not.png), auto;
+  background: url(../images/seatdisable.png) no-repeat center center;
+}
+.container .main .seats-container .seats-body .seats .ableseat {
+  background: url(../images/seat-readly.png) no-repeat center center;
+}
+.container .main .data {
+  width: 400px;
+  height: 100%;
+  padding: 10px;
+  background-color: #f9f9f9;
+}
+.container .main .data .movie-data {
+  width: 76%;
+  margin: 0 auto;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.container .main .data .movie-data img {
+  width: 156px;
+  display: inline-block;
+  padding: 2px;
+  background-color: #fff;
+  box-shadow: 0 0 5px 5px #e4e4e4;
+}
+.container .main .data .movie-data p:nth-of-type(1) {
+  font-size: 20px;
+  font-weight: 800;
+  height: 30px;
+  width: 150px;
+  color: #333333;
+  line-height: 30px;
+  overflow: hidden !important;
+  text-overflow: ellipsis ;
+  white-space: nowrap;
+}
+.container .main .data .movie-data p {
+  font-size: 12px;
+  color: #999999;
+  height: 30px;
+  line-height: 30px;
+}
+.container .main .data .movie-data p span {
+  margin-left: 5px;
+  color: #333333;
+  font-weight: 800;
+}
+.container .main .data .cinema-data {
+  width: 76%;
+  margin: 0 auto;
+  padding: 10px;
+}
+.container .main .data .cinema-data p {
+  font-size: 12px;
+  color: #999999;
+  height: 30px;
+  line-height: 30px;
+}
+.container .main .data .cinema-data p span {
+  margin-left: 5px;
+  color: #333333;
+  font-weight: 800;
+}
+.container .main .data .cinema-data p .active {
+  color: #f13d37;
+}
+.container .main .data .price {
+  width: 76%;
+  min-height: 150px;
+  padding: 10px;
+  margin: 0 auto;
+}
+.container .main .data .price p {
+  font-size: 12px;
+  color: #999999;
+  height: 30px;
+  line-height: 30px;
+}
+.container .main .data .price #seatmini {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.container .main .data .price #seatmini .seat-num {
+  display: inline-block;
+  width: 48%;
+  box-sizing: border-box;
+  border: 3px solid #d4b2b2;
+  border-radius: 10px;
+  text-align: center;
+  margin-bottom: 10px;
+  color: #333333;
+}
+.container .main .data .price #seatmini p {
+  width: 100%;
+  text-align: center;
+}
+.container .main .data .price #seatmini .none {
+  display: none;
+}
+.container .main .data .countmoney {
+  width: 90%;
+  height: 48px;
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0 auto;
+  margin-top: 50px;
+  border-bottom: 1px solid #cfcfcf;
+}
+.container .main .data .countmoney span:nth-of-type(2) {
+  color: #f13d37;
+}
+.container .main .data .countmoney span:nth-of-type(2) span {
+  font-size: 26px;
+}
+.container .main .data .user-data {
+  width: 76%;
+  padding: 10px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+.container .main .data .user-data p {
+  width: 100%;
+  text-align: center;
+  font-size: 14px;
+  color: #999999;
+}
+.container .main .data .user-data p span {
+  color: #333333;
+  font-weight: 600;
+}
+.container .main .data .user-data a {
+  display: block;
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  border-radius: 40px;
+  margin-top: 20px;
+  background-color: #dedede;
+  font-size: 16px;
+  color: #f9f9f9;
+  pointer-events: none;
+}
+.container .main .data .user-data .isable {
+  background-color: #f13d37;
+  pointer-events: all;
+}

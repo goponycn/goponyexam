@@ -1,0 +1,214 @@
+.movie-list{
+    margin-top: 120px;
+    margin-bottom: 60px;
+    .list-body{
+        width: 100%;
+        margin: 0;
+        .list-model{
+            height: auto;
+        }
+    }
+}
+.cinemas-body{
+width: 1200px;
+margin: auto;
+.intro{
+    .intro-text{
+        width: 100%;
+        span:nth-child(1){
+            font-weight: 800;
+        }
+    }
+}
+.cineam-model{
+    padding: 20px 0;
+    width: 100%;
+    height: 115px;
+    border-bottom: 1px dashed #e5e5e5;
+    display: flex;
+    justify-content: space-between;
+    .cineam-name{
+        p{
+            color: #999999;
+        a{
+            font-size: 18px;
+            &:hover{
+                color: #f03d37;
+            }
+        }
+        }
+
+    }
+    .cineam-money{
+        width: 200px;
+        display: flex;
+        justify-content: space-between;
+        .price{
+            font-size: 12px;
+            color: #999;
+            height: 45px;
+            line-height: 45px;
+            p{
+                line-height: 20px;
+                text-align: right;
+                span{
+                    color: #f03d37;
+                    font-weight: 800;
+                }
+            }
+        }
+        .buy-btn{
+            width: 80px;
+            height: 45px;
+            line-height: 45px;
+            margin-left: 36px;
+            margin-right: 20px;
+            a{
+                display: inline-block;
+                width: 100%;
+                height: 30px;
+                color: #fff;
+                background-color: #f03d37;
+                font-size: 14px;
+                line-height: 30px;
+                border-radius: 100px;
+                text-align: center;
+                box-shadow: 0 2px 10px -2px #f03d37;
+                &:hover{
+                    background-color: #ff5e59;
+                }
+            }
+        }
+        }
+    .hint{
+        display: inline-block;
+        border: .7px solid #509fc9;
+        border-radius: 3px;
+        padding: 0 2px;
+        margin-right: 8px;
+        margin-top: 10px;
+        font-family: PingFangSC-Regular;
+        font-size: 12px;
+        color: #509fc9;
+        line-height: 18px;
+    }
+}
+}
+.movie-top{
+    margin-top: 100px;
+    width: 100%;
+    height: 380px;
+    margin-bottom: 80px;
+    background: url(../images/top-bg.png) no-repeat center center;
+    background-size: cover;
+    display: flex;
+    .movie-banner{
+        width: 1200px;
+        height: 376px;
+        margin: 0 auto;
+        position: relative;
+        .movie-img{
+            position: absolute;
+            top:70px;
+            width: 240px;
+            height: 330px;
+            background-color: #ffffff;
+            padding: 5px;
+            img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+        .movie-data{
+            position: absolute;
+            top:70px;
+            left: 240px;
+            color: #ffffff;
+            .movie-name{
+                width: 300px;
+                height: 200px;
+                padding-left: 30px;
+                .name{
+                    font-weight: 600; 
+                    font-size: 26px;
+                }
+                .othername{
+                    margin-bottom: 10px;
+                    font-size: 16px;
+                }
+                .kind{
+                    margin-bottom: 8px;
+                }
+                .area{
+                    margin-bottom: 8px;
+
+                }
+            }
+            .movie-btn{
+                width: 250px;
+                margin: 50px auto;
+                display: flex;
+                justify-content: space-between;
+                a{
+                    display: inline-block;
+                    width: 120px;
+                    height: 36px;
+                    color: #ffffff;
+                    background:  #756189;
+                    text-align: center;
+                    line-height: 36px;
+                    i{
+                        display: inline-block;
+                        vertical-align: middle;
+                        margin-top: -2px;
+                        width: 19px;
+                        height: 19px;
+                        background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyhpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNS1jMDE0IDc5LjE1MTQ4MSwgMjAxMy8wMy8xMy0xMjowOToxNSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6MDc1OTZBMzUzQzIzMTFFNkI5NzY4NjMyQkI3QTVCMDAiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6MDc1OTZBMzQzQzIzMTFFNkI5NzY4NjMyQkI3QTVCMDAiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTQgKE1hY2ludG9zaCkiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDozOTE3NDFCODM3NjcxMUU2QUY0Q0YzNTlBNkE3Q0U3MiIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDozOTE3NDFCOTM3NjcxMUU2QUY0Q0YzNTlBNkE3Q0U3MiIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/Ptb+IwoAAAC3SURBVHjaYvz//z8DJYAJiZ0CxMeB+BMQvwbi5UCsCcUg9huo3HGoWggAuQCIF//HDn5BMTawGOx6IJH2n3yQxggkrgMdokFmENwEGfADyGAn04C/TNCAIRd8ABmwmQIDNoACUQyIX5ERgCA9YrBoVALiyyRovgzVA08HIMwJxJuJ0LwZqpYB3QAY7sejuR9dPTYDQDgbi+ZsbGpxGQDC7kia3XGpYySQG/Og9CRcChgpzc4AAQYAYXrq/jrniJEAAAAASUVORK5CYII=) no-repeat 1px 2px;
+                    }
+                }
+                a:nth-of-type(2){
+                    i{
+                        display: inline-block;
+                        vertical-align: middle;
+                        margin-top: -2px;
+                        width: 19px;
+                        height: 19px;
+                        background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyhpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNS1jMDE0IDc5LjE1MTQ4MSwgMjAxMy8wMy8xMy0xMjowOToxNSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6MDc1OTZBM0QzQzIzMTFFNkI5NzY4NjMyQkI3QTVCMDAiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6MDc1OTZBM0MzQzIzMTFFNkI5NzY4NjMyQkI3QTVCMDAiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTQgKE1hY2ludG9zaCkiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo4QzQ3QTgzOTM3NjgxMUU2QUY0Q0YzNTlBNkE3Q0U3MiIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo4QzQ3QTgzQTM3NjgxMUU2QUY0Q0YzNTlBNkE3Q0U3MiIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/Pi0cMmgAAADqSURBVHjaYvz//z8DHtAExAJAnIdLASMeA3iB+BOULQfEj7EpYsJjey8SuwunKpALsOCQ/5ggBJtadAEJIG75jxsUATEbsh5QGLgDHeIDxGZArAfEHAz4wTMg3g/EZ4F4N8iAY0CGJQN54CDIGXpAfPE/6eA5EHvB/CIKxG9J0PwRiBXQAzGRBANikQMR5h9mIH4DTXn4wAsglsSWkP4C8TUiAu4ovpTIQoQBv3AZwAPEWkQYoIjLRnaoISCwG4hXAPEZIOaCppNUINYEYnVcBnyEZqDPQDwTGlgwcAKI9wJxFRDfRzYAIMAAYsNIs6fSEWgAAAAASUVORK5CYII=) no-repeat;
+                    }
+                }
+            }
+            .watching{
+                width: 200px;
+                height: 150px;
+                position: absolute;
+                left: 360px;
+                top: 140px;
+                padding-left: 20px;
+                .name{
+                    height: 30px;
+                    line-height: 30px;
+                }
+                .wantnum{
+                    font-size: 24px;
+                    color: #FFC600;
+                    height: 40px;
+                    line-height: 40px;
+                }
+                .money{
+                    font-size: 12px;
+                    height: 30px;
+                    line-height: 30px;
+                }
+                .num{
+                    font-size: 24px;
+                    height: 30px;
+                    line-height: 30px;
+                    span{
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+
+    }  
+}

@@ -1,0 +1,119 @@
+.main .content {
+  width: 1200px;
+  margin: 100px auto;
+  border: 1px solid rgba(209, 209, 209, 0.432);
+  display: flex;
+  justify-content: space-between;
+}
+.main .content .left {
+  width: 18%;
+  border-right: 1px solid rgba(209, 209, 209, 0.733);
+  background: rgba(240, 240, 240, 0.692);
+}
+.main .content .left ul {
+  width: 100%;
+}
+.main .content .left ul li {
+  width: 100%;
+  text-align: center;
+  height: 40px;
+  line-height: 40px;
+}
+.main .content .left ul li:nth-child(1) {
+  font-size: 20px;
+  height: 90px;
+  line-height: 90px;
+}
+.main .content .left ul .activeli {
+  background-color: #ED3931;
+  color: white;
+}
+.main .content .ringht {
+  width: 78%;
+}
+.main .content .ringht .top p {
+  color: #ED3931;
+  width: 100%;
+  height: 70px;
+  line-height: 70px;
+  border-bottom: 1px solid rgba(209, 209, 209, 0.432);
+}
+.main .content .ringht ul {
+  width: 100%;
+  margin-top: 25px;
+}
+.main .content .ringht ul li {
+  width: 95%;
+  border: 1px solid rgba(209, 209, 209, 0.432);
+  margin-bottom: 25px;
+}
+.main .content .ringht ul li .tops {
+  height: 50px;
+  padding: 10px 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  background: rgba(240, 240, 240, 0.692);
+}
+.main .content .ringht ul li .tops p span {
+  font-size: 14px;
+  margin-left: 15px;
+  line-height: 30px;
+}
+.main .content .ringht ul li .tops p span:nth-child(2) {
+  color: #bbbbbb;
+}
+.main .content .ringht ul li .tops i {
+  margin-right: 20px;
+  margin-top: 3px;
+}
+.main .content .ringht ul li .tops i img {
+  width: 24px;
+}
+.main .content .ringht ul li .bottoms {
+  display: flex;
+  justify-content: space-between;
+}
+.main .content .ringht ul li .bottoms .lefts {
+  background-color: white;
+  box-sizing: border-box;
+  padding: 20px 0;
+  margin-left: 20px;
+}
+.main .content .ringht ul li .bottoms .lefts i {
+  display: inline-block;
+  padding: 3px;
+  box-shadow: 0 0 5px #000;
+}
+.main .content .ringht ul li .bottoms .lefts i img {
+  width: 65px;
+}
+.main .content .ringht ul li .bottoms .lefts .name {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 10px;
+}
+.main .content .ringht ul li .bottoms .lefts .name p {
+  margin-top: 5px;
+  font-size: 12px;
+  color: #818181;
+}
+.main .content .ringht ul li .bottoms .lefts .name p:nth-child(1) {
+  margin-left: -6px;
+  margin-bottom: 5px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #000;
+}
+.main .content .ringht ul li .bottoms .lefts .name p:nth-child(4) {
+  color: #ED3931;
+}
+.main .content .ringht ul li .bottoms .ringhts {
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+  height: 138px;
+  line-height: 138px;
+  margin-right: 25px;
+  font-size: 14px;
+}

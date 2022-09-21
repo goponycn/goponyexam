@@ -1,0 +1,168 @@
+.movies-nav {
+  background-color: #47464a;
+  height: 60px;
+  width: 100%;
+  min-width: 1200px;
+  text-align: center;
+  margin: 80px 0 40px 0;
+}
+.movies-nav a {
+  display: block;
+  font-size: 16px;
+  height: 60px;
+  line-height: 60px;
+  padding: 0 30px;
+  color: #999;
+}
+.movies-nav a:hover {
+  color: #ffffff;
+}
+.movies-nav .nav-body {
+  width: 400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.movies-nav .active {
+  color: #ef4238;
+  position: relative;
+}
+.movies-nav .active::before {
+  content: "";
+  width: 2px;
+  height: 0;
+  display: inline-block;
+  position: absolute;
+  left: 50%;
+  margin-left: -5px;
+  top: 53px;
+  border-bottom: 7px solid #fff;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-top: none;
+}
+.movie-list {
+  width: 1200px;
+  margin: auto;
+}
+.movie-list .list-body {
+  width: 1120px;
+  margin: 0 40px 40px 40px;
+  padding: 0 20px;
+  border: 1px solid #cac6c6;
+}
+.movie-list .list-body .list-model {
+  border-bottom: 1px solid #e5e5e5;
+  padding: 10px 0;
+  height: 75px;
+}
+.movie-list .list-body .list-model .name {
+  display: inline-block;
+  height: 24px;
+  line-height: 24px;
+  color: #999;
+  font-size: 14px;
+}
+.movie-list .list-body .list-model .tags {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 40px;
+  margin-top: -24px;
+  width: 1080px;
+}
+.movie-list .list-body .list-model .tags .tag-click {
+  padding: 3px 9px;
+  display: inline-block;
+  margin-left: 12px;
+  border-radius: 14px;
+  margin: 0 10px;
+}
+.movie-list .list-body .list-model .tags .tag-click a {
+  height: 30px;
+  line-height: 20px;
+  font-size: 14px;
+}
+.movie-list .list-body .list-model .tags .tag-click a:hover {
+  color: #f34d41;
+}
+.movie-list .list-body .list-model .tags .active {
+  background: #f34d41;
+}
+.movie-list .list-body .list-model .tags .active a {
+  color: #fff;
+}
+.movie-list .list-body .list-model .tags .active a:hover {
+  color: #fff;
+}
+.movie-list .list-body .list-model:nth-last-child(1) {
+  border: none;
+}
+.movie-list .sort {
+  width: 1120px;
+  margin: 0 20px;
+  margin-bottom: 60px;
+}
+.movie-list .sort .sort-model {
+  display: inline-block;
+  margin: 0 20px;
+}
+.movie-list .sort .sort-model .sort-icon {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  vertical-align: middle;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA4ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNS1jMDIxIDc5LjE1NTc3MiwgMjAxNC8wMS8xMy0xOTo0NDowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo0ODZiM2E2Zi0wMmNhLTQ4NzEtOTllMy03OWIyZjBlM2UxZjEiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6QTY1MkY4NjAzMDk0MTFFNjgyOEJEMzk3NTFDMkJERTEiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6QTY1MkY4NUYzMDk0MTFFNjgyOEJEMzk3NTFDMkJERTEiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTQgKE1hY2ludG9zaCkiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDphM2M4YmMxZS1lY2FiLTRmNzUtYjA1NS0yZjEwNGZkMTA1MGUiIHN0UmVmOmRvY3VtZW50SUQ9ImFkb2JlOmRvY2lkOnBob3Rvc2hvcDpkNDJiMDI4MS03NzY5LTExNzktYjM1NC04ZmQxMDcyYjQzMjMiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz5mh94aAAABPklEQVR42qyTsWqEQBCG51aw0sJO7GIj5Iq8w3HF5T0uRUpfJKlSJXmMwBVH3iFwBG2WpFDsLBQCymrml90gR+7QkB+Ghd35ZmdnZhd939NYaZpe8rJlu2a70NuSbcf2FEXR+9h/YQIwaPNyZ1nWred5wnEcsm17OGuahuq6prIsO6XUI2/FHOjrJ4CGX1zXXfu+T0II+k1d11FRFFRV1Ssy5CCN8bznG9dBEJyEIZzBhy9aIdshgyRJlpz2WxiG1jn4OBMpJb9GXYHY8psnwyYTMGBBbVCwudLMBgFCU+050kwo6I/S7R+6INHnuWrbFssnAuwwJHOlmT0CPPOEKbRmquALBqM9vIVn4SHLsn6q4AsGrClizOO5z/OczmWCM/joUY7/7zMdfeclLzcYEvQZPNsHCqa/82Hs/y3AAM8+1iMcdvfKAAAAAElFTkSuQmCC) no-repeat;
+}
+.movies-body {
+  width: 1200px;
+  margin: auto;
+}
+.movies-body ul {
+  width: 1120px;
+  margin: 0 40px 40px 40px;
+  padding: 0 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.movies-body ul .othermovie-model {
+  width: 166px;
+  text-align: center;
+  margin: 20px 10px 0 0px;
+  position: relative;
+}
+.movies-body ul .othermovie-model a p {
+  height: 30px;
+  line-height: 30px;
+  font-size: 16px;
+}
+.movies-body ul .othermovie-model i {
+  color: #ffb400;
+}
+.movies-body ul .othermovie-model .mix2d {
+  display: block;
+  width: 69px;
+  height: 25px;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEUAAAAZCAMAAABQHxOXAAAANlBMVEUAAAAAAAAAhP////9Epf93vf+73v8RjP/d7//u9/8ilP8znf/M5v9mtf+Zzv+q1v+Ixv9Vrf8Ox5ywAAAAAnRSTlMzAIL4qAgAAAEtSURBVDjL7ZPNjsMwCIRbsI3/4iTv/7I7g9NDrb1ttOqhSEUMxR84JA+5wZ63UB5fyv9QQqh/psSiqkMkKawMQwZBpO4yBcsOL5Kmuotl7Qsl5SOrNsmaCUp+MJ/QPG4FAlVVJ1Q6sruWus4icqpWYX/LjIwhNNlxgmVomTNtGEb1/OXpJhQG1QAkfZgOtnEUIgM8oSJXZqV4H29qTqkewuWu8WDjzftUBrDdr7ZSrBMih1+/0x/TpaEZJzlCwDXiHAEaTVZKy9rtupWMV2O6GLk8OMJpTLeiab2RZ0uMyOJf7mp4t1ShN0xQbGhHBiJgZt8xfmWhRHWTqrQMnK+4Qjebr82OTJql1q+9be+UGtzE6JunXpqRSQv1erkrpNcY9Gd/jV/KG+X5uMF+APHWE1liaIDvAAAAAElFTkSuQmCC);
+  position: absolute;
+  top: 4px;
+  left: -2px;
+  font-size: 12px;
+}
+.movies-body ul .othermovie-model .mix3d {
+  display: block;
+  width: 69px;
+  height: 25px;
+  position: absolute;
+  top: 4px;
+  left: -2px;
+  font-size: 12px;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEUAAAAZCAMAAABQHxOXAAAANlBMVEUAAAAAAAAAhP////9Epf93vf8RjP+73v/d7//u9/9mtf8ilP/M5v8znf+q1v+Zzv+Ixv9Vrf8pmp8MAAAAAnRSTlMzAIL4qAgAAAExSURBVDjL7VPLcsMgDEwQCMTD4P//2e6K9FD72Eynh2jGghVotZLtR3iDPd/C8viw/AmLxqi/ZkkCqyFkrjZ1RxJxfx3z2hKZWIbIEbRIv7AcOZlYCEUKibInlhOY6WoAuNVEdmZH9BBr97lk5rK+IrUFxRYYNsjIwzDFtqYKMSLntaOYJqNRJEIGfdwOVimFlBGepCG8IleWhejyfHXffAtXuqTFwtXVNm5gCPT7dMfpCpe33+nXdnlKQSYlRLSRtgRgr3ebC6vs2czvwnSJM5lwJKcxPEzyvSO1dHa2gdNVkOXVMnGFAtMpHRGA2MX8HeOxC4sP0Sr00AqLFAEr8ND92RyI5LAn11/vrV46iilF5QcMGzsCI+ZOw4gNa2PjgH5Hgf/13/hh+cnyfLzBvgAoTBNzukOVAAAAAABJRU5ErkJggg==);
+}
+
+.movies-body ul .othermovie-model .movie-poster {
+  background-color: #fcfcfc;
+  width: 160px;
+  height: 220px;
+  overflow: hidden;
+  position: relative;
+}
