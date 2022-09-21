@@ -469,7 +469,6 @@
     border-bottom: #000 2px solid;
     line-height: 40px;
     font-size: 14px;
-    background: url(../../assets/img/blog/5794.png) left 10px center no-repeat;
     padding-left: 40px;
     color: #000
   }
