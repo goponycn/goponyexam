@@ -63,11 +63,7 @@
                             :rows="questionItem.quantity" placeholder="">
                           </el-input>
                         </el-col>
-                        <el-col :span="23" v-if="questionItem.type==9">
-                          <admixture-paper :ref="questionItem.id" @handle="handleAdmixtureChange()"
-                            :questions="questionItem.subItems">
-                          </admixture-paper>
-                        </el-col>
+
                       </el-row>
                     </el-form-item>
                   </el-card>
@@ -87,8 +83,6 @@
     mapState,
     mapActions
   } from 'vuex'
-
-  import AdmixturePaper from '@/components/AdmixturePaper'
   import {
     getPreview
   } from '@/api/examination/paper'
@@ -96,7 +90,7 @@
   export default {
     dicts: ['sys_normal_disable', 'pony_manual_auto', 'pony_question_type'],
     components: {
-      AdmixturePaper
+
     },
     data() {
       return {

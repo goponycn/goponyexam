@@ -116,16 +116,7 @@
                           </el-button>
                         </el-col>
 
-                        <el-col :span="4" v-if="questionItem.type==9">
-                          <el-input-number v-model="questionItem.gainScore" @change="handleChange" :min="0"
-                            :max="questionItem.score" label="得分"></el-input-number></br>
-                        </el-col>
 
-                        <el-col :span="24" v-if="questionItem.type==9">
-                          <admixture-decide :ref="questionItem.id" @handle="handleAdmixtureChange()"
-                            :questions="questionItem.subItems">
-                          </admixture-decide>
-                        </el-col>
 
                       </el-row>
                     </el-form-item>
@@ -140,6 +131,7 @@
   </div>
 </template>
 
+
 <script>
   import {
     mapGetters,
@@ -151,10 +143,9 @@
     getDecide,
     updateDecide
   } from "@/api/examination/decide";
-  import AdmixtureDecide from '@/components/AdmixtureDecide'
   export default {
     components: {
-      AdmixtureDecide
+
     },
     dicts: ['sys_normal_disable', 'pony_manual_auto', 'pony_question_type', 'pony_question_difficulty'],
     data() {
