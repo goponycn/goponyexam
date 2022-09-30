@@ -1,7 +1,7 @@
 import request from '@/utils/request'
 import { parseStrEmpty } from "@/utils/common";
 
-// 查询知识单元列表
+// 查询单元列表
 export function listSection(query) {
   return request({
     url: '/basic/section/list',
@@ -10,7 +10,7 @@ export function listSection(query) {
   })
 }
 
-// 查询知识单元详细
+// 查询单元详细
 export function getSection(id) {
   return request({
     url: '/basic/section/' + id,
@@ -18,7 +18,7 @@ export function getSection(id) {
   })
 }
 
-// 新增知识单元
+// 新增单元
 export function addSection(data) {
   return request({
     url: '/basic/section',
@@ -27,7 +27,7 @@ export function addSection(data) {
   })
 }
 
-// 修改知识单元
+// 修改单元
 export function updateSection(data) {
   return request({
     url: '/basic/section',
@@ -36,7 +36,7 @@ export function updateSection(data) {
   })
 }
 
-// 删除知识单元
+// 删除单元
 export function delSection(id) {
   return request({
     url: '/basic/section/' + id,
